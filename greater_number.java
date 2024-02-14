@@ -9,7 +9,7 @@ public class greater_number {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		int c = sc.nextInt();
-		
+		//int x=(a>b)?a:b;
 		int x=(a>b)?((a>c)?a:c):((b>c)?b:c);
         System.out.println("Greater number =" + x);         
 		sc.close();
